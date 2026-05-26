@@ -1,0 +1,7 @@
+{
+  "prettier/prettier": "off",
+  "singleQuote": true,
+  "trailingComma": "none", 
+  "endOfLine": "auto",
+   "bracketSpacing": true
+}
