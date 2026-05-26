@@ -11,6 +11,7 @@ export class PostService {
     return findPosts;
   }
   async create(postData: PostCreateInput) {
+    console.log("guuu", postData)
     const data = await this.prisma.post.create({ data: postData });
     return data;
   }
